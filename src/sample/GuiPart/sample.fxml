@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane id="MainPanel" fx:id="MainPanel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1000.0" prefWidth="1668.0" style="-fx-background-color: #9ee2ff; -fx-border-color: #0d5417;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GuiPart.Controller">
+   <children>
+      <TabPane id="Panel_with_Panels" fx:id="Panel_with_Panels" layoutX="4.0" layoutY="30.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="952.0" prefWidth="1381.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="-11.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="29.0">
+         <tabs>
+            <Tab text="Promos">
+               <content>
+                  <SplitPane dividerPositions="0.2537931034482759" prefHeight="1027.0" prefWidth="1379.0">
+                    <items>
+                      <AnchorPane fx:id="Targetsss" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="819.0" prefWidth="274.0">
+                           <children>
+                              <GridPane layoutX="1.0" layoutY="186.0" prefHeight="422.0" prefWidth="390.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="2.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="82.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="315.0" minWidth="10.0" prefWidth="308.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="16.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="84.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="111.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="57.0" minHeight="10.0" prefHeight="57.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="54.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="35.0" minHeight="3.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="57.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="IdUser" textFill="#5d970c">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Agreement" textFill="#5d970c" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Description" textFill="#5d970c" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Kind_A" textFill="#5d970c" GridPane.rowIndex="3">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Kind_B" textFill="#5d970c" GridPane.rowIndex="4">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="47.0" prefWidth="128.0" text="Locs" textFill="#5d970c" GridPane.rowIndex="5">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="IdUser" textFill="#5d970c">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" layoutX="10.0" layoutY="215.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="IdUser" textFill="#5d970c">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextArea fx:id="Prom_IdUser" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                                    <TextArea fx:id="Prom_Agreement" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <TextArea fx:id="Prom_Description" onKeyPressed="#pressDescription" prefHeight="111.0" prefWidth="152.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <TextArea fx:id="Prom_KindA" onKeyPressed="#pressKindA" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                    <TextArea fx:id="Prom_KindB" onKeyPressed="#pressKindB" prefHeight="23.0" prefWidth="127.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                    <TextArea fx:id="Prom_Locations" prefHeight="39.0" prefWidth="128.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                    <Button fx:id="Prom_DelButton" mnemonicParsing="false" onMouseClicked="#deletePost" prefHeight="31.0" prefWidth="185.0" style="-fx-background-color: #e60000; -fx-background-radius: 10; -fx-cursor: CLOSED_HAND;" text="Delete" textFill="#001b16" GridPane.rowIndex="8">
+                                       <cursor>
+                                          <Cursor fx:constant="CLOSED_HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="Prom_AgreeButton" mnemonicParsing="false" onMouseClicked="#ageePost" prefHeight="31.0" prefWidth="182.0" style="-fx-background-color: #26ad17; -fx-background-radius: 10; -fx-cursor: OPEN_HAND;" text="Agree" textFill="#06392f" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                                       <cursor>
+                                          <Cursor fx:constant="OPEN_HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Price" textFill="#5d970c" GridPane.rowIndex="6">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextArea fx:id="Prom_Price" prefHeight="60.0" prefWidth="127.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                    <Button fx:id="Prom_AgreeButton1" mnemonicParsing="false" onAction="#AddToFreeList" prefHeight="26.0" prefWidth="181.0" style="-fx-background-color: #26ad17; -fx-background-radius: 10; -fx-cursor: OPEN_HAND;" text="AdToFree" textFill="#06392f" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                       <cursor>
+                                          <Cursor fx:constant="OPEN_HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="Prom_Change" mnemonicParsing="false" onMouseClicked="#ChangePost" prefHeight="31.0" prefWidth="182.0" style="-fx-background-color: #26ad17; -fx-background-radius: 10; -fx-cursor: OPEN_HAND;" text="Chage" textFill="#06392f" GridPane.rowIndex="7">
+                                       <cursor>
+                                          <Cursor fx:constant="OPEN_HAND" />
+                                       </cursor>
+                                    </Button>
+                                 </children>
+                              </GridPane>
+                              <Pane fx:id="Prom_ImagePane" layoutY="1.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="393.0" AnchorPane.bottomAnchor="439.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="3.0">
+                                 <padding>
+                                    <Insets bottom="100.0" left="100.0" right="100.0" />
+                                 </padding>
+                              </Pane>
+                           </children>
+                           <padding>
+                              <Insets bottom="1.0" />
+                           </padding>
+                        </AnchorPane>
+                        <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="805.0" prefWidth="1099.0">
+                           <children>
+                              <TableView fx:id="Promoes_AgrementTable" layoutX="-11.0" layoutY="-4.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onMouseClicked="#ClickPromoes_AgrementTable" prefHeight="908.0" prefWidth="362.0" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn fx:id="Prom_IdUserColumn" prefWidth="102.0" text="idUser" />
+                                  <TableColumn fx:id="Prom_OneTimeColumn" prefWidth="78.0" text="Prom_OneTimeColumn" />
+                                    <TableColumn fx:id="Prom_ManyTimesColumn" minWidth="0.0" prefWidth="92.0" text="Prom_ManyTimesColumn" />
+                                    <TableColumn fx:id="Prom_IsFree" prefWidth="89.0" text="Prom_IsFree" />
+                                </columns>
+                              </TableView>
+                              <TableView fx:id="Promoes_OtPosts_Table" layoutX="363.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onMouseClicked="#ClickPromoes_OtPosts_Table" prefHeight="908.0" prefWidth="190.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn fx:id="Promoes_OtPosts_id" minWidth="0.0" prefWidth="106.0" text="idUser" />
+                                  <TableColumn fx:id="Promoes_OtPosts_onetime" prefWidth="86.0" text="One Time" />
+                                </columns>
+                              </TableView>
+                              <TableView fx:id="Promoes_MtPosts_Table" layoutX="553.0" layoutY="-1.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onMouseClicked="#ClickPromoes_MtPosts_Table" prefHeight="910.0" prefWidth="172.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn fx:id="Promoes_MtPosts_id" prefWidth="78.0" text="id User" />
+                                  <TableColumn fx:id="Promoes_MtPosts_manytimes" prefWidth="93.0" text="Many Time" />
+                                </columns>
+                              </TableView>
+                              <TableView fx:id="Promoes_FreePosts_Table" layoutX="727.0" layoutY="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onKeyPressed="#keyPressedFreePosts_Table" onMouseClicked="#ClickPromoes_FreePosts_Table" prefHeight="904.0" prefWidth="188.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn fx:id="Promoes_FreePosts_id" prefWidth="96.0" text="id User" />
+                                  <TableColumn fx:id="Promoes_FreePosts_free" prefWidth="97.0" text="Free" />
+                                </columns>
+                              </TableView>
+                              <TableView fx:id="Promoes_AllPosts_Table" layoutX="944.0" layoutY="-5.0" onKeyPressed="#keyPressedAllPosts_Table" onMouseClicked="#ClickPromoes_AllPosts_Table" prefHeight="905.0" prefWidth="170.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn fx:id="Promoes_AllPosts_Number" prefWidth="41.0" text="NumberPost" />
+                                  <TableColumn fx:id="Promoes_AllPosts_Id" prefWidth="131.0" text="UserId" />
+                                </columns>
+                              </TableView>
+                              <Button layoutX="950.0" layoutY="945.0" mnemonicParsing="false" onAction="#GetPostsFromDB" prefHeight="27.0" prefWidth="172.0" style="-fx-background-color: #000000; -fx-border-color: #00ff25;" text="GetFromDb" textFill="#00ff25" AnchorPane.bottomAnchor="2.0" AnchorPane.rightAnchor="0.0">
+                                 <font>
+                                    <Font name="Ebrima" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="Prom_DeleteFreeButton1" layoutX="725.0" layoutY="907.0" mnemonicParsing="false" onAction="#PromoesDeleteFree" prefHeight="30.0" prefWidth="190.0" style="-fx-background-color: #e60000; -fx-background-radius: 10; -fx-cursor: CLOSED_HAND;" text="Delete" textFill="#001b16" AnchorPane.bottomAnchor="2.0">
+                                 <cursor>
+                                    <Cursor fx:constant="MOVE" />
+                                 </cursor>
+                              </Button>
+                              <Button fx:id="Prom_DeleteOtButton11" layoutX="362.0" layoutY="907.0" mnemonicParsing="false" onAction="#PromoesDeleteOt" prefHeight="30.0" prefWidth="190.0" style="-fx-background-color: #e60000; -fx-background-radius: 10; -fx-cursor: CLOSED_HAND;" text="Delete" textFill="#001b16" AnchorPane.bottomAnchor="2.0">
+                                 <cursor>
+                                    <Cursor fx:constant="MOVE" />
+                                 </cursor>
+                              </Button>
+                              <Button fx:id="Prom_DeleteMtButton12" layoutX="553.0" layoutY="909.0" mnemonicParsing="false" onAction="#PromoesDeleteMt" prefHeight="30.0" prefWidth="173.0" style="-fx-background-color: #e60000; -fx-background-radius: 10; -fx-cursor: CLOSED_HAND;" text="Delete" textFill="#001b16" AnchorPane.bottomAnchor="2.0">
+                                 <cursor>
+                                    <Cursor fx:constant="MOVE" />
+                                 </cursor>
+                              </Button>
+                              <Button fx:id="Prom_DelButtonWL" layoutX="-2.0" layoutY="947.0" mnemonicParsing="false" onAction="#DeleteFromWaitingList" prefHeight="30.0" prefWidth="369.0" style="-fx-background-color: #e60000; -fx-background-radius: 10; -fx-cursor: CLOSED_HAND;" text="Delete" textFill="#001b16" AnchorPane.bottomAnchor="2.0">
+                                 <cursor>
+                                    <Cursor fx:constant="CLOSED_HAND" />
+                                 </cursor>
+                              </Button>
+                              <TableView fx:id="Promoes_MyPosts_Table" layoutX="916.0" onKeyPressed="#keyPressedMyPostsList_Table" onMouseClicked="#ClickPromoes_MyPosts_Table" prefHeight="905.0" prefWidth="149.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn fx:id="Promoes_MyPostsNumberColumn" prefWidth="75.0" text="Time" />
+                                  <TableColumn fx:id="Promoes_MyPostsUserIdColumn" prefWidth="75.0" text="UserId" />
+                                </columns>
+                              </TableView>
+                              <Button fx:id="Prom_DeleteMyButton1" layoutX="919.0" layoutY="908.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="141.0" text="Delete" />
+                           </children>
+                           <padding>
+                              <Insets bottom="2.0" />
+                           </padding>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </content>
+            </Tab>
+            <Tab id="Panel_1" text="Sellers">
+               <content>
+                  <SplitPane dividerPositions="0.29797979797979796" prefHeight="160.0" prefWidth="200.0">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+
+                                <GridPane layoutX="1.0" layoutY="186.0" prefHeight="362.0" prefWidth="489.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="2.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="241.0" minWidth="10.0" prefWidth="149.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="360.0" minWidth="10.0" prefWidth="343.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+                                        <RowConstraints maxHeight="26.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                             
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="36.0" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="67.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="83.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="83.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="78.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="78.0" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints />
+                                    </rowConstraints>
+
+                                    <children>
+                                        <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="IdUser" textFill="#5d970c" GridPane.rowIndex="1">
+                                            <font>
+                                                <Font name="Droid Sans Bold" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Agreement" textFill="#5d970c" GridPane.rowIndex="2">
+                                            <font>
+                                                <Font name="Droid Sans Bold" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Fist Name" textFill="#5d970c" GridPane.rowIndex="3">
+                                            <font>
+                                                <Font name="Droid Sans Bold" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Last Name" textFill="#5d970c" GridPane.rowIndex="4">
+                                            <font>
+                                                <Font name="Droid Sans Bold" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Time of Registrarion" textFill="#5d970c" GridPane.rowIndex="5">
+                                            <font>
+                                                <Font name="Droid Sans Bold" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="47.0" prefWidth="128.0" text="Points" textFill="#5d970c" GridPane.rowIndex="6">
+                                            <font>
+                                                <Font name="Droid Sans Bold" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="IdUser" textFill="#5d970c" GridPane.rowIndex="1">
+                                            <font>
+                                                <Font name="Droid Sans Bold" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <Label contentDisplay="CENTER" layoutX="10.0" layoutY="215.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="IdUser" textFill="#5d970c" GridPane.rowIndex="1">
+                                            <font>
+                                                <Font name="Droid Sans Bold" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <TextArea fx:id="Sellers_Id" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                        <TextArea fx:id="Sellers__Agreement" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                        <TextArea fx:id="Sellers_fistName" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                        <TextArea fx:id="Sellers_lastName" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                        <TextArea fx:id="Sellers_TimeReg" prefHeight="23.0" prefWidth="127.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                        <TextArea fx:id="Sellers_Points" prefHeight="39.0" prefWidth="128.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                        <Button fx:id="Sellers_blockSeller" mnemonicParsing="false" onAction="#BlockSeller" prefHeight="28.0" prefWidth="123.0" style="-fx-background-color: #e60000; -fx-background-radius: 10; -fx-cursor: CLOSED_HAND;" text="Block" textFill="#001b16" GridPane.columnIndex="1" GridPane.rowIndex="14">
+                                            <cursor>
+                                                <Cursor fx:constant="CLOSED_HAND" />
+                                            </cursor></Button>
+                                        <Button fx:id="Sellers_AgreeButton" mnemonicParsing="false" onMouseClicked="#ageePost" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: #26ad17; -fx-background-radius: 10; -fx-cursor: OPEN_HAND;" text="Agree" textFill="#06392f" GridPane.columnIndex="1" GridPane.rowIndex="13">
+                                            <cursor>
+                                                <Cursor fx:constant="OPEN_HAND" />
+                                            </cursor>
+                                        </Button>
+                                        <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="All Points" textFill="#5d970c" GridPane.rowIndex="7">
+                                            <font>
+                                                <Font name="Droid Sans Bold" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <TextArea fx:id="Sellers_allPoints" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="60.0" prefWidth="127.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Credit" textFill="#5d970c" GridPane.rowIndex="8">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextArea fx:id="Sellers_Credit" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="343.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                    <Button fx:id="Sellers_deleteSeller1" layoutX="10.0" layoutY="298.0" mnemonicParsing="false" onAction="#DeleteSellerB" prefHeight="28.0" prefWidth="132.0" style="-fx-background-color: #e60000; -fx-background-radius: 10; -fx-cursor: CLOSED_HAND;" text="Delete" textFill="#001b16" GridPane.rowIndex="14">
+                                       <cursor>
+                                          <Cursor fx:constant="CLOSED_HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button fx:id="Sellers_addPoints" mnemonicParsing="false" onAction="#AddingPoints" onMouseClicked="#ageePost" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: #26ad17; -fx-background-radius: 10; -fx-cursor: OPEN_HAND;" text="AddPoints" textFill="#06392f" GridPane.columnIndex="1" GridPane.rowIndex="12">
+                                       <cursor>
+                                          <Cursor fx:constant="OPEN_HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <TextField fx:id="Sellers_NumberPoints" GridPane.rowIndex="12" />
+                                    <Button mnemonicParsing="false" onAction="#GetSellersFromDB" prefHeight="25.0" prefWidth="163.0" style="-fx-background-color: #000000; -fx-border-color: #00ff25;" text="GetFromDb" textFill="#00ff25" GridPane.rowIndex="13">
+                                       <font>
+                                          <Font name="Ebrima" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="UserName" textFill="#5d970c" GridPane.rowIndex="9">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextArea fx:id="Sellers_UserName" prefHeight="60.0" prefWidth="127.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Personal Number" textFill="#5d970c" GridPane.rowIndex="10">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextArea fx:id="PesonalNumber" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                                    </children>
+                                </GridPane>
+                                <Pane fx:id="Sellers_ImagePane" layoutY="7.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="492.0" AnchorPane.bottomAnchor="392.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="7.0">
+                                    <padding>
+                                        <Insets bottom="100.0" left="100.0" right="100.0" />
+                                    </padding>
+                                </Pane>
+                            </children>
+                           <padding>
+                              <Insets bottom="2.0" />
+                           </padding></AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <TableView fx:id="Sellers_Table" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onKeyPressed="#keyPressedSellers_Table" onMouseClicked="#ClickSellers_Table" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="0.0">
+                                <columns>
+                                  <TableColumn fx:id="Sellers_idColumn" prefWidth="70.0" text="Seller Id" />
+                                  <TableColumn fx:id="Sellers_fistNameColumn" prefWidth="66.0" text="FistName" />
+                                    <TableColumn fx:id="Sellers_lastNameColumn" prefWidth="75.0" text="LastName" />
+                                    <TableColumn fx:id="Sellers_lastTimeColumn" prefWidth="75.0" text="LastTime" />
+                                    <TableColumn fx:id="Sellers_usernameColumn" prefWidth="75.0" text="UserName" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </content></Tab>
+            <Tab text="BasicInfo">
+               <content>
+                  <SplitPane dividerPositions="0.250272034820457" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity">
+                    <items>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.0" minWidth="10.0" prefWidth="34.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.0" minWidth="10.0" prefWidth="34.0" />
+
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <GridPane>
+                                <columnConstraints>
+                                  
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="59.0" styleClass="-fx-background-color" text="All Users" textFill="#da0303" textOverrun="WORD_ELLIPSIS">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </GridPane>
+                        <AnchorPane id="Panel_for_Table" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+                            <cursor>
+                                <Cursor fx:constant="DEFAULT" />
+                            </cursor>
+                           <children>
+                                  <TableView id="Simple_Users_Table" fx:id="Simple_Users_Table" editable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="527.0" prefWidth="615.0" style="-fx-background-color: #9effe8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                      <columns>
+                                          <TableColumn fx:id="Name_column" prefWidth="75.0" text="Name" />
+                                          <TableColumn fx:id="Ser_nameColumn" prefWidth="75.0" text="Ser-Name" />
+                                          <TableColumn fx:id="username_column" prefWidth="75.0" text="User-name" />
+                                          <TableColumn fx:id="userId_column" prefWidth="75.0" text="UserId" />
+                                          <TableColumn fx:id="ifSeller_column" prefWidth="75.0" text="If_Seller?" />
+                                          <TableColumn fx:id="NReq_toBot_column" prefWidth="116.0" text="Кол. Обрщ. к Боту" />
+                                          <TableColumn fx:id="NReq_toSeller_column" minWidth="0.0" prefWidth="173.0" text="Кол. Обрщ. к Продавцам" />
+                                          <TableColumn fx:id="Num_ofDeals" prefWidth="132.0" text="Кол. Покупок" />
+                                    <TableColumn fx:id="LastTimeColumn" prefWidth="75.0" text="Last Time" />
+                                      </columns>
+                                      <columnResizePolicy>
+                                          <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                      </columnResizePolicy>
+                                  </TableView>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" />
+                           </padding>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </content>
+            </Tab>
+            <Tab text="Errors">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextFlow fx:id="Erros" layoutX="230.0" layoutY="2.0" prefHeight="527.0" prefWidth="252.0" style="-fx-background-color: #c2ffd2;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Posting_Setting">
+              <content>
+                <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="834.0" prefWidth="1379.0">
+                     <children>
+                        <GridPane layoutX="208.0" prefHeight="64.0" prefWidth="283.0">
+                          <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="83.0" minWidth="10.0" prefWidth="83.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="83.0" minWidth="10.0" prefWidth="80.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="84.0" minWidth="10.0" prefWidth="66.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="84.0" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Button fx:id="Posting_startFreeButton" mnemonicParsing="false" onAction="#Posting_startFree" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #0fc51b; -fx-border-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #f600ff;" text="Free" textFill="#f600ff" />
+                              <Button fx:id="Posting_startOtButton" mnemonicParsing="false" onAction="#Posting_startOt" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #0fc51b; -fx-border-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #f600ff;" text="One Time" textFill="#f600ff" GridPane.columnIndex="1" />
+                              <Button fx:id="Posting_startMtButton" mnemonicParsing="false" onAction="#Posting_startMt" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #0fc51b; -fx-border-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #f600ff;" text="Many Time" textFill="#f600ff" GridPane.columnIndex="2" />
+                              <Button fx:id="Posting_stopFreeButton1" mnemonicParsing="false" onAction="#Posting_stopree" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #000000; -fx-border-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #f600ff;" text="Stop Free" textFill="RED" GridPane.rowIndex="1" />
+                              <Button fx:id="Posting_stopOtButton3" mnemonicParsing="false" onAction="#Posting_stopOt" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #000000; -fx-border-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #f600ff;" text="Stop O.T" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Button fx:id="Posting_stopMtButton2" mnemonicParsing="false" onAction="#Posting_stopMt" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #000000; -fx-border-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #f600ff;" text="Stop M.T." textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <Button fx:id="Posting_startMyButton" mnemonicParsing="false" onAction="#Posting_startMy" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #0fc51b; -fx-border-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #f600ff;" text="My" textFill="#f600ff" GridPane.columnIndex="3" />
+                              <Button fx:id="Posting_stopMyButton2" mnemonicParsing="false" onAction="#Posting_stopMy" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #000000; -fx-border-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #f600ff;" text="Stop My" textFill="RED" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                           </children>
+                        </GridPane>
+                        <ListView fx:id="GroupsIdList" layoutX="14.0" layoutY="35.0" onMouseClicked="#ChooseGroupId" prefHeight="754.0" prefWidth="208.0" AnchorPane.bottomAnchor="75.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="35.0" />
+                        <Button fx:id="Posting_Settings_Button_Delete_Id" layoutY="789.0" mnemonicParsing="false" onAction="#Posting_Settings_Button_Delete_GroupId" prefHeight="43.0" prefWidth="208.0" style="-fx-background-color: #f09eb5;" text="Delete Group Id" textFill="RED" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+                        <TextArea fx:id="Posts_GroupId_Input" layoutX="7.0" layoutY="1.0" prefHeight="35.0" prefWidth="121.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Button fx:id="Posting_Settings_Button_input_Id" layoutX="122.0" layoutY="18.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Posting_Settings_Button_input_GroupId" prefHeight="34.0" prefWidth="85.0" style="-fx-background-color: #0004ff;" text="Add Group Link" textAlignment="CENTER" textFill="#03ff37" textOverrun="WORD_ELLIPSIS" AnchorPane.leftAnchor="122.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font name="Yu Gothic UI Semibold" size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="Posting_stopAllButton31" layoutX="208.0" layoutY="64.0" mnemonicParsing="false" onAction="#Posting_stopAll" prefHeight="30.0" prefWidth="284.0" style="-fx-background-color: #000000; -fx-border-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #f600ff;" text="Stop" textFill="RED" />
+                        <TextArea fx:id="Posts_Time_Input1" layoutY="771.0" prefHeight="35.0" prefWidth="165.0" />
+                        <Button fx:id="Posting_Settings_Button_input_Time" layoutX="165.0" layoutY="772.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Posting_Settings_Button_input_Time" prefHeight="33.0" prefWidth="40.0" style="-fx-background-color: #0004ff;" text="Add Group Link" textAlignment="CENTER" textFill="#03ff37" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="Yu Gothic UI Semibold" size="10.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" />
+                     </padding>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab id="Panel_1" text="ReViews">
+               <content>
+                  <SplitPane dividerPositions="0.29797979797979796" prefHeight="160.0" prefWidth="200.0">
+                     <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <GridPane layoutX="1.0" layoutY="186.0" prefHeight="798.0" prefWidth="408.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints maxHeight="76.0" minHeight="0.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="204.0" minHeight="2.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="257.0" minHeight="7.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="302.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="333.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="367.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="387.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="67.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="83.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="78.0" minHeight="0.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="78.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+                                    <RowConstraints />
+                                 </rowConstraints>
+                                 <children>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="IdUser" textFill="#5d970c">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" text="IdSeller" textFill="#5d970c" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" text="TimeRequestToBot" textFill="#24a8c9" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Cambria Bold" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" text="Time Asking Right 1" textFill="#25bcd7" GridPane.rowIndex="3">
+                                       <font>
+                                          <Font name="Cambria Bold" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" text="Time Asking Right 2" textFill="#2ac8eb" GridPane.rowIndex="4">
+                                       <font>
+                                          <Font name="Cambria Bold" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="39.0" prefWidth="222.0" text="Time AskinRight 3" textFill="#42e6ee" GridPane.rowIndex="5">
+                                       <font>
+                                          <Font name="Cambria Bold" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="IdUser" textFill="#5d970c">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" layoutX="10.0" layoutY="215.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="24.0" prefWidth="204.0" text="IdUser" textFill="#5d970c">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="123.0" style="-fx-background-color: #e60000; -fx-background-radius: 10; -fx-cursor: CLOSED_HAND;" text="Block" textFill="#001b16" GridPane.columnIndex="1" GridPane.rowIndex="20">
+                                       <cursor>
+                                          <Cursor fx:constant="CLOSED_HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Time Responce" textFill="#5d970c" GridPane.rowIndex="6">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Res Was From fist keyboard" textFill="#5d970c" GridPane.rowIndex="7">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button layoutX="10.0" layoutY="298.0" mnemonicParsing="false" onAction="#DeleteReView" prefHeight="28.0" prefWidth="132.0" style="-fx-background-color: #e60000; -fx-background-radius: 10; -fx-cursor: CLOSED_HAND;" text="Delete" textFill="#001b16" GridPane.rowIndex="20">
+                                       <cursor>
+                                          <Cursor fx:constant="CLOSED_HAND" />
+                                       </cursor>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#GetReViewFromDb" prefHeight="25.0" prefWidth="163.0" style="-fx-background-color: #000000; -fx-border-color: #00ff25;" text="GetFromDb" textFill="#00ff25" GridPane.rowIndex="19">
+                                       <font>
+                                          <Font name="Ebrima" size="12.0" />
+                                       </font>
+                                    </Button>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Res Was From second keyboard" textFill="#5d970c" GridPane.rowIndex="8">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Byer have finished ?" textFill="#5d970c" GridPane.rowIndex="9">
+                                       <font>
+                                          <Font name="Droid Sans Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="35.0" prefWidth="202.0" text="Time finish" textFill="#3049ff" GridPane.rowIndex="11">
+                                       <font>
+                                          <Font name="Cambria Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="35.0" prefWidth="202.0" text="Description" textFill="#3049ff" GridPane.rowIndex="12">
+                                       <font>
+                                          <Font name="Cambria Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="35.0" prefWidth="202.0" text="Index :" textFill="#3049ff" GridPane.rowIndex="13">
+                                       <font>
+                                          <Font name="Cambria Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="35.0" prefWidth="202.0" text="Quality :" textFill="#3049ff" GridPane.rowIndex="14">
+                                       <font>
+                                          <Font name="Cambria Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="35.0" prefWidth="202.0" text="Quality / Price :" textFill="#3049ff" GridPane.rowIndex="15">
+                                       <font>
+                                          <Font name="Cambria Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="35.0" prefWidth="202.0" text="Service :" textFill="#3049ff" GridPane.rowIndex="16">
+                                       <font>
+                                          <Font name="Cambria Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="35.0" prefWidth="202.0" text="Conformity ?" textFill="#3049ff" GridPane.rowIndex="17">
+                                       <font>
+                                          <Font name="Cambria Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="35.0" prefWidth="202.0" text="Recomendet ?" textFill="#3049ff" GridPane.rowIndex="18">
+                                       <font>
+                                          <Font name="Cambria Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <TextArea fx:id="Rev_userId" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+                                    <TextArea fx:id="Rev_sellerId" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <TextArea fx:id="Rev_TRtoBot" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <TextArea fx:id="Rev_TA1" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                    <TextArea fx:id="Rev_TA2" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                    <TextArea fx:id="Rev_TA3" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                    <TextArea fx:id="Rev_TR" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                    <TextArea fx:id="Res_201" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                    <TextArea fx:id="Res_202" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                    <TextArea fx:id="Finished" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                    <TextArea fx:id="rev_Numreview" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                                    <TextArea fx:id="Time_Finish" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                                    <TextArea fx:id="rev_description" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                                    <TextArea fx:id="rev_index" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                                    <TextArea fx:id="rev_quality" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+                                    <TextArea fx:id="rev_qp" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+                                    <TextArea fx:id="rev_service" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+                                    <TextArea fx:id="rev_Conformity" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="17" />
+                                    <TextArea fx:id="rev_recommendet" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+                                    <Label prefHeight="35.0" prefWidth="202.0" text="Number" textFill="#3049ff" GridPane.rowIndex="10">
+                                       <font>
+                                          <Font name="Cambria Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </GridPane>
+                           </children>
+                           <padding>
+                              <Insets bottom="1.0" />
+                           </padding>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <TableView fx:id="Reviews_Table" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onKeyPressed="#keyPressedReViews" onMouseClicked="#ClickReViewTable" prefHeight="806.0" prefWidth="248.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="0.0">
+                                 <columns>
+                                    <TableColumn fx:id="Reviews_TableColumn_SellerId" prefWidth="70.0" text="Seller Id" />
+                                    <TableColumn fx:id="Reviews_TableColumn_ByerId" prefWidth="66.0" text="Byer Id " />
+                                    <TableColumn fx:id="Reviews_TableColumn_Index" prefWidth="75.0" text="Index" />
+                                    <TableColumn fx:id="Reviews_TableColumn_N" prefWidth="33.0" text="N" />
+                                    <TableColumn fx:id="Reviews_TableColumn_Time" prefWidth="75.0" text="TimeReqToBot" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </items>
+                  </SplitPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+      <MenuBar layoutX="7.0" layoutY="3.0" prefHeight="27.0" prefWidth="141.0" style="-fx-background-color: #9ee2ff;">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#SavePostsLists" text="SavePosts" />
+                  <MenuItem mnemonicParsing="false" onAction="#LoadPostsLists" text="LoadPostLists" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Button id="StartBotButton" fx:id="StartBotButton" layoutX="523.0" mnemonicParsing="false" onAction="#STARTBOT" prefHeight="27.0" prefWidth="128.0" style="-fx-background-radius: 11; -fx-background-color: black; -fx-border-color: #048515; -fx-border-radius: 10; -fx-cursor: HAND;" text="Start Bot" textFill="#0abf31">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button id="Get_Data_Button" fx:id="Get_Data_Button" layoutX="653.0" mnemonicParsing="false" onAction="#LOADALLDATA" prefHeight="11.0" prefWidth="128.0" style="-fx-background-radius: 11; -fx-background-color: black; -fx-cursor: HAND; -fx-border-color: #048515; -fx-border-radius: 10;" text="Data" textFill="#0abf31">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Bloom />
+         </effect></Button>
+      <TextField id="Field_for_Seaching" fx:id="Field_for_Seaching" layoutX="148.0" layoutY="3.0" prefHeight="27.0" prefWidth="369.0" promptText=" Find User..." style="-fx-background-color: #9ee2ff; -fx-border-color: #7bff00;" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" />
+   </padding>
+</AnchorPane>

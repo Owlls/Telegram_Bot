@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-5.1.48-bin">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://C:/Program Files/Java/javafx-sdk-11.0.2/bin" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://D:/my/prog/librires/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48-bin.jar!/" />
+    </SOURCES>
+    <excluded>
+      <root url="file://C:/Program Files/Java/javafx-sdk-11.0.2/bin" />
+    </excluded>
+  </library>
+</component>
